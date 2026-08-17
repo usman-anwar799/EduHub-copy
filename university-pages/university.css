@@ -101,13 +101,6 @@ header {
     margin-top: -10px;
 }
 @media (max-width:1080px) {
-
-    /* .two-par-child > div{
-        width: 100%;
-    }
-    .two-par-child > div > div{
-        width: 100%;
-    } */
     .three-lines {
         display: block;
     }
@@ -143,123 +136,11 @@ header {
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.box{
-    background: white;
-    color: black;
-    margin-top: 20px;
+.active-box{
     display: inline-flex;
-    border-radius: 20px;
-    width: 360px;
-    max-width: 100%;
-    flex-direction: column;
-    scale: 0.95;
-    transition: all 0.3s;
-    cursor: pointer;
 }
-.box:hover{
-    scale: 1;
-}
-.top-part{
-    padding: 20px 20px 20px 20px;
-    height: fit-content;
-    width: 100%;
+.container{
     display: flex;
-    position: relative;
-}
-.top-part i{
-    font-size: 27px;
-    padding: 10px 25px;
-    background-color: rgba(128, 128, 128, 0.21);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 7px;
-    scale: 1.1;
-}
-.hec{
-    background-color: rgba(0, 115, 255, 0.388);
-    color: blue;
-    height: fit-content;
-    padding: 2px 5px;
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: 520;
-    position: absolute;
-    right: 80px;
-}
-.pec{
-    background-color: rgba(172, 255, 47, 0.416);
-    color: green;
-    height: fit-content;
-    padding: 2px 5px;
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: 520;
-    position: absolute;
-    right: 25px;
-}
-.uni-title1{
-    margin: 0px 12px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 23px;
-}
-.Public-btn {
-    border: 0.3px solid rgb(230, 230, 230);
-    padding: 10px 40px;
-    border-radius: 10px;
-    margin: 10px 0px;
-    display: inline-flex;
-    list-style: disc;
-    color: rgba(117, 117, 117, 0.728);
-    background-color: rgba(220, 220, 220, 0.445);
-    width: 90%;
-    margin-right: 5px;
     flex-wrap: wrap;
-}
-
-.Public-btn li {
-    margin-left: 15px;
-}
-
-.Public-btn .fa-hotel {
-    margin-right: 7px;
-    color: rgba(17, 17, 255, 0.621);
-}
-.trophy-1 {
-    margin-left: 40px;
-    margin-right: 10px;
-    color: rgba(117, 117, 117, 0.728);
-}
-.bottom-part{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.disc-par{
-    padding: 5px 15px;
-    list-style-type: none;
-    color: grey;
-    font-weight: 540;
-    font-size: 14.5px;
-    margin-left: 5px;
-}
-.hr{
-    background: rgba(128, 128, 128, 0.219);
-    padding: 0.6px;
-    width: 90%;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-.detail-btn{
-    width: 90%;
-    padding: 8px;
-    font-size: 19px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 0px;
-    border-radius: 9px;
-    background-color: rgba(128, 128, 128, 0.119);
-    color: blue;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    justify-content: space-around;
 }
