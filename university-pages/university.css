@@ -143,4 +143,5 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 0px 20px;
 }
