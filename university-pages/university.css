@@ -298,7 +298,7 @@ span{
 .container-opts{
     width: 700px;
     max-width: 100%;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     background-color: rgb(248, 249, 255);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.094);
     border-radius: 12px;
@@ -329,6 +329,7 @@ span{
 .opt-par1 li{
     font-size: 13.5px;
     color:grey;
+    margin-top: 10px;
 }
 .opt-par2{
     list-style: none;
@@ -353,6 +354,7 @@ span{
 .opt-par2 li{
     font-size: 13.5px;
     color:grey;
+    margin-top: 10px;
 }
 .opt-par3{
     list-style: none;
@@ -377,10 +379,14 @@ span{
 .opt-par3 li{
     font-size: 13.5px;
     color:grey;
+    margin-top: 10px;
 }
-@media(max-width:950px){
+@media(max-width:1115px){
     .search-btn{
         width: 100%;
         font-size: 20px
+    }
+    .search-bar{
+        min-width: 100%;
     }
 }
