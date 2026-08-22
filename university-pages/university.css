@@ -143,4 +143,244 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 0px 20px;
+}
+.container0{
+    margin: 20px 0px 0px 30px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 0px 4px;
+}
+.container0 li,
+span{
+    margin-top: 0.5px;
+}
+.container0 a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+.container0 a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.line1-filter{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.line2-filter{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 14.5px;
+    color: rgba(128, 128, 128, 0.671);
+}
+.main-fourteen {
+    background-color: #292929;
+    padding: 110px 40px 50px 40px;
+    list-style: none;
+    margin-top: -80px;
+}
+
+.fouteen-mm {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-bottom: 0px;
+}
+
+.fourt-one {
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 5px;
+    margin: 60px 20px;
+}
+
+.h3-gr {
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+
+
+.tw-26 {
+    display: flex;
+    border: 0px;
+    border-top: 1px solid rgba(35, 17, 17, 0.315);
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.tw-26 p {
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.social-par button {
+    padding: 7px 12px;
+    font-size: 32px;
+    border: 0px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.073);
+    transform: scale(0.8);
+}
+
+.twitter i {
+    margin: 5px 0px;
+    transform: scale(0.98);
+    font-size: 30px;
+}
+
+.contact-link {
+    white-space: nowrap;
+}
+.offer-par {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.offer-1 {
+    background-color: rgba(0, 115, 255, 0.557);
+    padding: 7px 20px;
+    border-radius: 25px;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-top: 7px;
+    transform: scale(0.7);
+}
+
+#diff-card-offer {
+    background-color: rgba(0, 255, 255, 0.781);
+}
+#foth-one {
+    text-align: center;
+}
+#manuf-text {
+    text-align: left;
+    font-weight: 1;
+    color: black;
+}
+.lines-point{
+    text-decoration: none;
+    align-items: center;
+}
+.fourt-one a{
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+.s-media-icon{
+    width: 50px;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 850px;
+    max-width: 200%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 17px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.089);
+    outline: none;
+}
+.container-opts{
+    width: 700px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: rgb(248, 249, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.094);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.opt-par1{
+    list-style: none;
+    margin-left: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.opt-par1 select{
+    width: 150px;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.084);
+    margin-top: 10px;
+    outline: none;
+}
+.opt-par1 i{
+    margin-right: 5px;
+    color:grey;
+}
+.opt-par1 li{
+    font-size: 13.5px;
+    color:grey;
+}
+.opt-par2{
+    list-style: none;
+    margin-left: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.opt-par2 select{
+    width: 150px;
+    font-size: 15px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.084);
+    margin-top: 10px;
+    outline: none;
+}
+.opt-par2 i{
+    margin-right: 5px;
+    color:grey;
+}
+.opt-par2 li{
+    font-size: 13.5px;
+    color:grey;
+}
+.opt-par3{
+    list-style: none;
+    margin-left: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.opt-par3 select{
+    width: 150px;
+    font-size: 15px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.084);
+    margin-top: 10px;
+    outline: none;
+}
+.opt-par3 i{
+    margin-right: 5px;
+    color:grey;
+}
+.opt-par3 li{
+    font-size: 13.5px;
+    color:grey;
+}
+@media(max-width:950px){
+    .search-btn{
+        width: 100%;
+        font-size: 20px
+    }
 }
