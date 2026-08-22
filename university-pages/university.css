@@ -286,6 +286,7 @@ span{
 }
 .search-bar{
     width: 850px;
+    max-width: 200%;
     height: 50px;
     border-radius: 10px;
     border: 0px;
@@ -303,6 +304,7 @@ span{
     border-radius: 12px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .opt-par1{
     list-style: none;
@@ -375,4 +377,10 @@ span{
 .opt-par3 li{
     font-size: 13.5px;
     color:grey;
+}
+@media(max-width:950px){
+    .search-btn{
+        width: 100%;
+        font-size: 20px
+    }
 }

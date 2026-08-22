@@ -90,6 +90,7 @@ const uni = async () => {
 
     searchContainer.style.width = "100%";
     searchContainer.style.display = "flex";
+    searchContainer.style.flexWrap = "wrap";
     searchContainer.style.alignItems = "center";
     searchContainer.style.marginTop = "20px";
     searchContainer.style.boxSizing = "border-box";
@@ -129,6 +130,7 @@ const uni = async () => {
     searchBtn.style.display = "block";
     searchBtn.style.fontSize = "20px";
     searchBtn.style.padding = "14px 30px";
+    searchBtn.className = "search-btn";
     searchBtn.style.cursor = "pointer";
     searchBtn.style.border = "0px";
     searchBtn.style.borderRadius = "10px";
