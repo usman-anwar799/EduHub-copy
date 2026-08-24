@@ -59,11 +59,11 @@ header {
 }
 .nav-options a {
     position: relative;
-    padding: 10px 18px;
+    /* padding: 10px 18px; */
     border-radius: 12px;
     transition: .3s;
     white-space: nowrap;
-    color: blue;
+    color: black;
 }
 
 .nav-options a:hover {
