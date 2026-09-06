@@ -1,0 +1,1 @@
+https://api-dev.eduhubpak.com/wp-json/wp/v2/university?per_page=100
