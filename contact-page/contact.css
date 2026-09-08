@@ -470,3 +470,11 @@ a p {
 .nav a p{
     color: black;
 }
+@media(max-width:660px){
+    .tw-26{
+        flex-direction: column;
+    }
+    .tw-26 p{
+        margin-top: 10px;
+    }
+}

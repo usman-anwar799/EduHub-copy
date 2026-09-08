@@ -643,3 +643,20 @@ span{
     background-color: blue;
     color: white;
 }
+@media(max-width:660px){
+    .tw-26{
+        flex-direction: column;
+    }
+    .tw-26 p{
+        margin-top: 10px;
+    }
+}
+.tw-26 *{
+    list-style: none;
+    text-decoration: none;
+}
+.tw-26 button{
+    width: 54px;
+    height: 54px;
+    padding: 0px;
+}
