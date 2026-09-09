@@ -78,9 +78,9 @@ slider.oninput = function () {
         outputer.style.color = "white";
 
     } else if (marks < 90) {
-        outputer.innerText = "Good";
-        outputer.style.backgroundColor = "yellow";
-        outputer.style.color = "orange";
+        outputer.innerText = "good";
+        outputer.style.backgroundColor = "greenyellow";
+        outputer.style.color = "green";
 
     } else {
         outputer.innerText = "Excellent";
