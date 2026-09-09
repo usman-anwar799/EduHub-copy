@@ -660,3 +660,6 @@ span{
     height: 54px;
     padding: 0px;
 }
+.social-par i{
+    cursor: pointer;
+}

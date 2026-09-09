@@ -478,3 +478,6 @@ a p {
         margin-top: 10px;
     }
 }
+.social-par i{
+    cursor: pointer;
+}

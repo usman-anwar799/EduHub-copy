@@ -883,3 +883,6 @@ header {
     }
 
 }
+.social-par i{
+    cursor: pointer;
+}

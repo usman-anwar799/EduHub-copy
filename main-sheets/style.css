@@ -1234,3 +1234,6 @@ a p {
 .contact-link {
     white-space: nowrap;
 }
+.social-par i{
+    cursor: pointer;
+}
