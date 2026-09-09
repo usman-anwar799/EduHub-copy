@@ -13,6 +13,7 @@ body {
     /* background: #e2e8f0; */
     background: linear-gradient(to left, #edf5ff8e, #bac5ff21, #a2b1ff22, #e2e8f08e);
 }
+
 header {
     padding: 18px 40px;
     background: #fff;
@@ -137,14 +138,17 @@ header {
         display: flex;
     }
 }
-@media(max-width:660px){
-    .tw-26{
+
+@media(max-width:660px) {
+    .tw-26 {
         flex-direction: column;
     }
-    .tw-26 p{
+
+    .tw-26 p {
         margin-top: 10px;
     }
 }
+
 @media(max-width:845px) {
     .two-par-child {
         flex-direction: row;
@@ -185,6 +189,7 @@ header {
     color: rgb(53, 53, 255);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.089);
 }
+
 .tag:hover {
     background-color: rgba(59, 98, 255, 0.16);
 }
@@ -195,6 +200,7 @@ header {
     justify-content: center;
     margin-bottom: 30px;
 }
+
 .main-one {
     display: flex;
     flex-direction: column;
@@ -229,7 +235,6 @@ header {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
-    /* background-color: red; */
 }
 
 .dics1 {
@@ -268,6 +273,7 @@ header {
     white-space: nowrap;
     cursor: pointer;
 }
+
 .search-box {
     position: relative;
     width: 100%;
@@ -300,6 +306,7 @@ header {
 #Uni-search::placeholder {
     color: #888;
 }
+
 .search-box {
     flex: 2;
     position: relative;
@@ -645,9 +652,7 @@ header {
     padding: 18px 20px;
 }
 
-.custom-select {
-    max-width: 100%;
-}
+
 
 .slider-par {
     display: flex;
@@ -855,8 +860,11 @@ button {
 .four-title p {
     color: gray;
     margin-top: 3px;
+    font-size: 1.1rem;
 }
-
+.four-title h1{
+    font-size: 2rem;
+}
 .four-container {
     /* background-color: red; */
     display: flex;
@@ -990,6 +998,7 @@ button {
 .tit1 {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .tit1>div {
@@ -1024,6 +1033,7 @@ button {
     background-color: rgba(220, 220, 220, 0.445);
     justify-content: space-around;
 }
+
 .Public-btn .fa-hotel {
     color: rgba(17, 17, 255, 0.621);
 }
@@ -1234,6 +1244,252 @@ a p {
 .contact-link {
     white-space: nowrap;
 }
-.social-par i{
+
+.social-par i {
     cursor: pointer;
+}
+
+/* =========================================================
+   RESPONSIVE .TWO-CONTAINER
+   Add this at the VERY END of your CSS
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .two-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 25px 20px;
+        border-radius: 25px;
+    }
+
+    .two-container>h1 {
+        width: 100%;
+        gap: 10px;
+        font-size: 26px;
+    }
+
+    .two-container>h1 img {
+        width: 70px;
+        flex-shrink: 0;
+    }
+
+    .two-par-container {
+        width: 100%;
+    }
+
+    .two-par-child {
+        width: 100%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .two-par-child>div {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .slider-par,
+    .slider2-par {
+        width: 100%;
+        max-width: 100%;
+        padding: 18px 20px;
+    }
+
+    .custom-select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .marks2-view {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .main-two {
+        width: 100%;
+        padding: 25px 10px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .two-container {
+        width: 100%;
+        padding: 20px 15px;
+        border-radius: 20px;
+    }
+
+    .two-container>h1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 23px;
+        line-height: 1.3;
+        margin-bottom: 25px;
+    }
+
+    .two-container>h1 img {
+        width: 65px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .two-par-child {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 18px;
+        padding: 0;
+    }
+
+    .two-par-child>div {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .grand-par-percentage,
+    .grand-par-price,
+    .field-par,
+    .submit-info-par {
+        width: 100%;
+    }
+
+    #marks-asker {
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .slider-par,
+    .slider2-par {
+        width: 100%;
+        padding: 16px;
+        border-radius: 15px;
+        gap: 15px;
+    }
+
+    .value-par,
+    .value2-par {
+        width: 100%;
+        align-items: center;
+    }
+
+    .marks-tag,
+    .price-tag {
+        width: auto;
+    }
+
+    .marks-view,
+    .marks2-view {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .marks-2,
+    .marks2-2 {
+        margin: 0;
+    }
+
+    #slider,
+    #slider2 {
+        width: 100%;
+    }
+
+    .select-wrapper {
+        width: 100%;
+    }
+
+    .custom-select {
+        width: 100%;
+        max-width: 100%;
+        height: 48px;
+        padding-left: 45px;
+        font-size: 15px;
+    }
+
+    .select-wrapper i {
+        left: 15px;
+    }
+
+    #custom {
+        width: 100%;
+        margin: 15px 0 5px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .main-two {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .two-container {
+        padding: 18px 12px;
+        border-radius: 18px;
+    }
+
+    .two-container>h1 {
+        font-size: 20px;
+    }
+
+    .two-container>h1 img {
+        width: 55px;
+    }
+
+    .text p {
+        font-size: 13px;
+    }
+
+    #marks-asker {
+        font-size: 14px;
+    }
+
+    .slider-par,
+    .slider2-par {
+        padding: 14px 12px;
+    }
+
+    .value-par p,
+    .value2-par p {
+        font-size: 14px;
+    }
+
+    .marks-view,
+    .marks2-view {
+        font-size: 12px;
+    }
+
+    .custom-select {
+        font-size: 14px;
+    }
+}
+@media(max-width:462px){
+    .tit1{
+        justify-content: center
+    }
+    .tit1 img{
+        width: 7rem;
+        margin-bottom: -20px;
+    }
+    .tit1 > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tit1 > div > *{
+        text-align: center;
+    }
 }
