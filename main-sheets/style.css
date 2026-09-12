@@ -866,9 +866,8 @@ button {
     font-size: 2rem;
 }
 .four-container {
-    /* background-color: red; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 30px;
 }
 
