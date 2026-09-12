@@ -33,7 +33,7 @@ university.acf?.type ||
 university.acf?.university_type ||
 university.university_type ||
 university.type;
-
+console.log(university.acf.banner_section.ranking_sources.rating);
 if (typeof type === "string") {
 return type.toLowerCase().trim();
 }

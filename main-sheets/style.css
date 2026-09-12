@@ -180,7 +180,7 @@ header {
 
 /* main code of all elements */
 .tag {
-    background-color: rgba(59, 98, 255, 0.105);
+    background-color: rgba(59, 98, 255, 0.023);
     display: inline-flex;
     padding: 7px 10px;
     border-radius: 10px;
