@@ -220,7 +220,7 @@ const uni = async () => {
       container.appendChild(box);
     });
   } catch (error) {
-    console.error("Error:", error);
+    console.error("error:", error);
   }
 };
 
