@@ -2,12 +2,20 @@ const menuBtn = document.querySelector(".three-lines");
 const navMenu = document.querySelector(".nav-options");
 
 menuBtn.addEventListener("click", (e) => {
+<<<<<<< HEAD
     e.stopPropagation(); // Prevent document click
+=======
+    e.stopPropagation();
+>>>>>>> scholarship
     navMenu.classList.toggle("show");
 });
 
 navMenu.addEventListener("click", (e) => {
+<<<<<<< HEAD
     e.stopPropagation(); // Keep menu open when clicking inside it
+=======
+    e.stopPropagation();
+>>>>>>> scholarship
 });
 
 document.addEventListener("click", () => {
@@ -78,9 +86,15 @@ slider.oninput = function () {
         outputer.style.color = "white";
 
     } else if (marks < 90) {
+<<<<<<< HEAD
         outputer.innerText = "Good";
         outputer.style.backgroundColor = "yellow";
         outputer.style.color = "orange";
+=======
+        outputer.innerText = "good";
+        outputer.style.backgroundColor = "greenyellow";
+        outputer.style.color = "green";
+>>>>>>> scholarship
 
     } else {
         outputer.innerText = "Excellent";
