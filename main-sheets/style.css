@@ -13,10 +13,7 @@ body {
     /* background: #e2e8f0; */
     background: linear-gradient(to left, #edf5ff8e, #bac5ff21, #a2b1ff22, #e2e8f08e);
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> scholarship
 header {
     padding: 18px 40px;
     background: #fff;
@@ -142,8 +139,7 @@ header {
     }
 }
 
-<<<<<<< HEAD
-=======
+
 @media(max-width:660px) {
     .tw-26 {
         flex-direction: column;
@@ -154,7 +150,6 @@ header {
     }
 }
 
->>>>>>> scholarship
 @media(max-width:845px) {
     .two-par-child {
         flex-direction: row;
@@ -186,11 +181,8 @@ header {
 
 /* main code of all elements */
 .tag {
-<<<<<<< HEAD
     background-color: rgba(59, 98, 255, 0.105);
-=======
     background-color: rgba(59, 98, 255, 0.023);
->>>>>>> scholarship
     display: inline-flex;
     padding: 7px 10px;
     border-radius: 10px;
@@ -199,10 +191,7 @@ header {
     color: rgb(53, 53, 255);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.089);
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> scholarship
 .tag:hover {
     background-color: rgba(59, 98, 255, 0.16);
 }
@@ -213,10 +202,7 @@ header {
     justify-content: center;
     margin-bottom: 30px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> scholarship
 .main-one {
     display: flex;
     flex-direction: column;
@@ -251,10 +237,6 @@ header {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
-<<<<<<< HEAD
-    /* background-color: red; */
-=======
->>>>>>> scholarship
 }
 
 .dics1 {
@@ -293,10 +275,7 @@ header {
     white-space: nowrap;
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> scholarship
 .search-box {
     position: relative;
     width: 100%;
@@ -329,10 +308,6 @@ header {
 #Uni-search::placeholder {
     color: #888;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> scholarship
 .search-box {
     flex: 2;
     position: relative;
@@ -453,11 +428,8 @@ header {
 .two-container {
     border-radius: 30px;
     background: white;
-<<<<<<< HEAD
     width: 100%;
-=======
     width: 90vw;
->>>>>>> scholarship
     max-width: 1200px;
     margin: auto;
     padding: 30px;
@@ -550,10 +522,6 @@ header {
 }
 
 .slider2-par {
-<<<<<<< HEAD
-=======
-    width: 600px;
->>>>>>> scholarship
     margin-top: 10px;
     background: #f5f5f5;
     display: inline-flex;
@@ -562,14 +530,10 @@ header {
     padding: 18px 35px;
     border-radius: 20px;
 }
-<<<<<<< HEAD
 
-.marks2-view {
-=======
 .marks2-view {
     max-width: 100%;
     width: 500px;
->>>>>>> scholarship
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -640,12 +604,9 @@ header {
 }
 
 .custom-select {
-<<<<<<< HEAD
     width: 360px;
-=======
     width: 580px;
     max-width: 100%;
->>>>>>> scholarship
     height: 50px;
     padding: 0 20px 0 50px;
 
@@ -696,13 +657,10 @@ header {
     padding: 18px 20px;
 }
 
-<<<<<<< HEAD
 .custom-select {
     width: 100%;
 }
-=======
 
->>>>>>> scholarship
 
 .slider-par {
     display: flex;
@@ -820,14 +778,12 @@ button {
     }
 
 }
-<<<<<<< HEAD
 
 .marks2-view {
     width: 40vw;
 }
 
-=======
->>>>>>> scholarship
+
 .main-three {
     background-color: white;
     padding: 10px;
@@ -883,14 +839,11 @@ button {
     .three-one {
         width: 100%;
     }
-<<<<<<< HEAD
 
-=======
     .custom-select{
         width: 100%;
         max-width: 100;
     }
->>>>>>> scholarship
     .four-one {
         width: 100rem;
         margin: 0px;
@@ -920,14 +873,12 @@ button {
 .four-title p {
     color: gray;
     margin-top: 3px;
-<<<<<<< HEAD
 }
 
 .four-container {
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
-=======
     font-size: 1.1rem;
 }
 .four-title h1{
@@ -936,7 +887,6 @@ button {
 .four-container {
     display: flex;
     justify-content: space-around;
->>>>>>> scholarship
     padding: 10px 30px;
 }
 
@@ -1066,10 +1016,7 @@ button {
 .tit1 {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
-=======
     flex-wrap: wrap;
->>>>>>> scholarship
 }
 
 .tit1>div {
@@ -1102,30 +1049,16 @@ button {
     list-style: disc;
     color: rgba(117, 117, 117, 0.728);
     background-color: rgba(220, 220, 220, 0.445);
-<<<<<<< HEAD
-}
-
-.Public-btn li {
-    margin-left: 15px;
-}
-
-.Public-btn .fa-hotel {
-    margin-right: 7px;
-=======
     justify-content: space-around;
 }
 
 .Public-btn .fa-hotel {
->>>>>>> scholarship
     color: rgba(17, 17, 255, 0.621);
 }
 
 .trophy-1 {
-<<<<<<< HEAD
     margin-left: 40px;
     margin-right: 10px;
-=======
->>>>>>> scholarship
     color: rgba(117, 117, 117, 0.728);
 }
 
@@ -1162,11 +1095,8 @@ button {
 .cards-two-par {
     display: flex;
     flex-wrap: wrap;
-<<<<<<< HEAD
     justify-content: space-between;
-=======
     justify-content: space-around;
->>>>>>> scholarship
     padding: 30px;
 }
 
@@ -1334,8 +1264,6 @@ a p {
 
 .contact-link {
     white-space: nowrap;
-<<<<<<< HEAD
-=======
 }
 
 .social-par i {
@@ -1585,5 +1513,4 @@ a p {
     .tit1 > div > *{
         text-align: center;
     }
->>>>>>> scholarship
 }
